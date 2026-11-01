@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Healthy Food</title>
+<style>
+body {
+    font-family: Arial;
+    background: #f1f8e9;
+    margin: 0;
+    text-align: center;
+}
+header {
+    background: #388e3c;
+    color: white;
+    padding: 20px;
+}
+nav {
+    background: #1b5e20;
+    padding: 12px;
+}
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+.card {
+    background: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
+button {
+    background: #388e3c;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Healthy Food Hub</h1>
+<p>Eat Healthy, Stay Healthy</p>
+</header>
+<nav>
+<a href="#">Home</a>
+<a href="#recipes">Recipes</a>
+<a href="#tips">Health Tips</a>
+</nav>
+<section id="recipes">
+<h2>Healthy Recipes</h2>
+<div class="card">
+<h3>Vegetable Salad</h3>
+<p>Calories: 150 kcal</p>
+<p>Ingredients: Carrot, Tomato, Cucumber</p>
+</div>
+<div class="card">
+<h3>Fruit Bowl</h3>
+<p>Calories: 120 kcal</p>
+<p>Ingredients: Apple, Banana, Orange</p>
+</div>
+<div class="card">
+<h3>Healthy Breakfast</h3>
+<p>Calories: 200 kcal</p>
+<p>Ingredients: Oats and Milk</p>
+</div>
+</section>
+<section id="tips">
+<h2>Healthy Eating Tips</h2>
+<p>Drink enough water every day.</p>
+<p>Eat fruits and vegetables.</p>
+<p>Choose balanced meals.</p>
+</section>
+<footer>
+<p>Healthy Food Hub - Eat Well!</p>
+</footer>
+</body>
+</html>
