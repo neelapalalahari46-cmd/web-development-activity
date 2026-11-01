@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hospital Website</title>
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #eaf7ff;
+    text-align: center;
+}
+header {
+    background: #0077b6;
+    color: white;
+    padding: 20px;
+}
+nav {
+    background: #023e8a;
+    padding: 12px;
+}
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+}
+.card {
+    background: white;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+button {
+    background: #0077b6;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+input {
+    padding: 10px;
+    margin: 5px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>City Care Hospital</h1>
+<p>Your Health Is Our Priority</p>
+</header>
+<nav>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+<section id="services">
+<h2>Our Departments</h2>
+<div class="card">Cardiology</div>
+<div class="card">Neurology</div>
+<div class="card">Orthopedics</div>
+<div class="card">Emergency Services</div>
+</section>
+<section>
+<h2>Appointment Form</h2>
+<input type="text" placeholder="Patient Name">
+<input type="email" placeholder="Email">
+<input type="date">
+<button>Book Appointment</button>
+</section>
+<section id="contact">
+<h2>Contact Us</h2>
+<p>Emergency: 108</p>
+<p>Visiting Hours: 9 AM - 5 PM</p>
+</section>
+</body>
+</html>
