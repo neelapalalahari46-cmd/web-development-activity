@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Yoga and Meditation</title>
+<style>
+body {
+    font-family: Arial;
+    background: #e8f5e9;
+    margin: 0;
+    text-align: center;
+}
+header {
+    background: #558b2f;
+    color: white;
+    padding: 20px;
+}
+nav {
+    background: #33691e;
+    padding: 12px;
+}
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+.card {
+    background: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
+button {
+    background: #558b2f;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Yoga & Meditation Center</h1>
+<p>Relax Your Mind and Body</p>
+</header>
+<nav>
+<a href="#">Home</a>
+<a href="#yoga">Yoga</a>
+<a href="#classes">Classes</a>
+<a href="#join">Join Us</a>
+</nav>
+<section id="yoga">
+<h2>Yoga Programs</h2>
+<div class="card">
+<h3>Mountain Pose</h3>
+<p>Improves balance and posture.</p>
+</div>
+<div class="card">
+<h3>Tree Pose</h3>
+<p>Helps improve body balance.</p>
+</div>
+<div class="card">
+<h3>Meditation</h3>
+<p>Helps calm the mind.</p>
+</div>
+</section>
+<section id="classes">
+<h2>Class Schedule</h2>
+<p>Morning: 6 AM - 7 AM</p>
+<p>Evening: 5 PM - 6 PM</p>
+<p>Instructor: Priya</p>
+</section>
+<section id="join">
+<h2>Join Our Center</h2>
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Email">
+<button>Register Now</button>
+</section>
+<footer>
+<p>Yoga Center - Stay Peaceful!</p>
+</footer>
+</body>
+</html>
